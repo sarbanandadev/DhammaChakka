@@ -3,14 +3,14 @@ export default function asideBar() {
   const asideBottom = document.getElementById("asideBottom");
 
   const top = [
-    { alt: "Explore", src: "/static/assets/icons/ftp.svg" },
-    { alt: "Search", src: "/static/assets/icons/search.svg" },
-    { alt: "Dictionary", src: "/static/assets/icons/book.svg" },
+    { alt: "Explore", src: "https://sarbanandadev.github.io/DhammaChakka/static/assets/icons/ftp.svg" },
+    { alt: "Search", src: "https://sarbanandadev.github.io/DhammaChakka/static/assets/icons/search.svg" },
+    { alt: "Dictionary", src: "https://sarbanandadev.github.io/DhammaChakka/static/assets/icons/book.svg" },
     { alt: "Apps", src: "/static/assets/icons/apps.svg" },
   ];
   let bottom = [
-    { alt: "User", src: "/static/assets/icons/user.svg" },
-    { alt: "Settings", src: "/static/assets/icons/settings.svg" },
+    { alt: "User", src: "https://sarbanandadev.github.io/DhammaChakka/static/assets/icons/user.svg" },
+    { alt: "Settings", src: "https://sarbanandadev.github.io/DhammaChakka/static/assets/icons/settings.svg" },
   ];
 
 
