@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name='google' content='notranslate' />
+	  <meta name='description' content='DhammaChakka - Tipitaka App'>
+	  <meta name='keywords' content='Tipitaka, Vinaya, Sutta, Abhidhamma, Buddhism, Buddhist Literature'>
+    <meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' />
+    <meta http-equiv='Content-Security-Policy' content='upgrade-insecure-requests' /> 
+    <meta http-equiv='X-UA-Compatible' content='IE=Edge,chrome=1' />  
+	  <meta http-equiv='Content-Language' content='en' />
+	  <meta name='msapplication-TileColor' content='#009579' />
+	  <meta name='theme-color' content='#009579' />
+	  <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+	  <meta name='apple-mobile-web-app-capable' content='yes' />
+	  <meta name='mobile-web-app-capable' content='yes' />
+	  <meta name='HandheldFriendly' content='True' />
+	  <meta name='MobileOptimized' content='320' />
+    <title>DhammaChakka - Tipitaka App</title>
+	  <link rel='shortcut icon' href='/static/assets/favicon.ico'>
+    <link rel="stylesheet" href="./static/styles/style.css" />
+    <link rel="stylesheet" href="./static/styles/utils/darkMode.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="/static/assets/icons/menu-burger.svg" alt="Menu" />
+      <div class="switch">
+        <input class="dark-mode-input" type="checkbox" id="darkMode" />
+        <label aria-hidden="true" class="dark-mode-label" for="darkMode">On</label>
+        <div aria-hidden="true" class="switch__marker"></div>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="tab-buttons" id="tabButtons"></div>
+    </nav>
+    <aside class="aside">
+      <div class="top" id="asideTop"></div>
+      <div class="bottom" id="asideBottom"></div>
+    </aside>
+    <main class="main">
+      <div class="app" id="app"></div>
+    </main>
+    <footer class="footer">
+      <div class="host-address">
+        <img src="/static/assets/dhammachakka.svg" alt="DhammaChakka" />
+        <strong>DhammaChakka</strong>
+      </div>
+      <div class="status-notify">
+        <span>Language</span>
+        <span>Time</span>
+        <img src="/static/assets/icons/bell.svg" alt="DhammaChakka" />
+      </div>
+    </footer>
+    <script type="module" src="/static/components/main.js"></script>
+  </body>
+</html>

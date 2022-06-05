@@ -1,0 +1,144 @@
+@font-face {
+  font-family: FontRegular;
+  src: url(/static/styles/fonts/NotoSerifBengali-Regular.ttf);
+}
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: FontRegular;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  padding: 0 10px;
+  width: calc(100vw - 20px);
+  height: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #009579;
+}
+.header img {
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+}
+.nav {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  width: calc(100vw - 35px);
+  height: 25px;
+  align-items: center;
+  background-color: #34a853;
+}
+
+.tab-buttons {
+  left: 35px;
+}
+.tab-link {
+  min-width: 100px;
+  padding: 5px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.tab-link:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.aside {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 35px;
+  height: calc(100% - 36px);
+  background: #009579;
+}
+.aside img {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 5px 7.5px;
+  color: #eeeeee;
+}
+.aside .top {
+  position: absolute;
+  top: 0;
+  height: calc(100% - 60px);
+}
+.aside .bottom {
+  position: absolute;
+  bottom: 0;
+}
+.main {
+  position: fixed;
+  top: 45px;
+  right: 0;
+  margin: 0;
+  padding: 0 7.5px;
+  width: calc(100vw - 50px);
+  height: calc(100vh - 120px);
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.main::-webkit-scrollbar {
+  display: none;
+}
+.main .app {
+  line-height: 1.5;
+  font-weight: 500;
+  padding: 10px;
+}
+
+a {
+  color: #009579;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+  line-height: 16px;
+  color: aliceblue;
+  background-color: #4285f4;
+}
+
+.footer .host-address {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  background-color: #34a853;
+}
+
+.footer .host-address img {
+  width: 10px;
+  height: 10px;
+  padding: 3px;
+}
+
+.footer .status-notify {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.footer .status-notify img {
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+}
+
+.footer .status-notify span {
+  padding: 0 5px;
+}
